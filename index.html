@@ -37,7 +37,10 @@
 <body>
     <div>
         <button type="submit" onclick="dataLayer.push({'event': 'ADD_CART'});">Add To cart</button>
-        <button type="submit" onclick=" snaptr('track', 'PURCHASE', { 'currency': 'USD', 'price': 100})">PURCHASE</button>
+        <a href="order-confirmation.html">
+            <button type="submit" onclick="snaptr('track', 'PURCHASE', { 'currency': 'USD', 'price': 100})">PURCHASE</button>
+        </a>
+        
 
     </div>
 </body>
